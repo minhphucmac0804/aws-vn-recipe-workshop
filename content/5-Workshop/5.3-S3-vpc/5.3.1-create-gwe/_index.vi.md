@@ -17,7 +17,7 @@ Tạo Qdrant Cloud cluster và collection cho luồng workshop cuối cùng.
 3. Chọn region phù hợp cho test.
 4. Chờ cluster sẵn sàng.
 
-![Qdrant cluster creation](/images/5-Workshop/workshop-005/01-qdrant-cloud/01-create-cluster.png)
+![Qdrant cluster creation](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/01-create-cluster.png)
 
 ## Bước 2 - Mở cluster dashboard
 
@@ -25,7 +25,7 @@ Tạo Qdrant Cloud cluster và collection cho luồng workshop cuối cùng.
 2. Kiểm tra cluster đang chạy.
 3. Lưu Qdrant URL ở local, không publish.
 
-![Qdrant cluster dashboard](/images/5-Workshop/workshop-005/01-qdrant-cloud/02-cluster-dashboard.png)
+![Qdrant cluster dashboard](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/02-cluster-dashboard.png)
 
 ## Bước 3 - Tạo E5 collection
 
@@ -42,10 +42,10 @@ Vector size: 768
 Distance: Cosine
 ```
 
-![Qdrant collection creation](/images/5-Workshop/workshop-005/01-qdrant-cloud/03-collection-creation.png)
+![Qdrant collection creation](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/03-collection-creation.png)
 
 ## Bước 4 - Kiểm tra collection rỗng
 
 Trước khi load dữ liệu, collection có thể đang rỗng. Đây là trạng thái bình thường.
 
-![Empty collection](/images/5-Workshop/workshop-005/01-qdrant-cloud/05-empty-collection.png)
+![Empty collection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/05-empty-collection.png)

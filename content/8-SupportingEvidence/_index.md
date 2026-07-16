@@ -12,9 +12,9 @@ This page collects supporting artifacts that explain the background of the final
 
 | Evidence | File | Role in this workshop |
 | --- | --- | --- |
-| Graduation thesis reference | [thesis-reference.pdf](/files/evidence/thesis-reference.pdf) | Provides background for the food-recipe domain, dataset context, local assistant design, and why the final workshop uses a Vietnamese recipe assistant use case. Personal identifiers were redacted before inclusion. |
-| Graduation project repository screenshot | [graduation-project-repo.png](/images/evidence/graduation-project-repo.png) | Shows supporting evidence that the original food-recipe project workspace existed, while the real source repository remains private. |
-| CLEF CheckThat! working note | [working-note.pdf](/files/evidence/working-note.pdf) | Supports the worklog notes about retrieval, multilingual embeddings, re-ranking, and evaluation experience from the CLEF CheckThat! task. Author/contact identifiers were redacted before inclusion. |
+| Graduation thesis reference | [thesis-reference.pdf](/aws-vn-recipe-workshop/files/evidence/thesis-reference.pdf) | Provides background for the food-recipe domain, dataset context, local assistant design, and why the final workshop uses a Vietnamese recipe assistant use case. Personal identifiers were redacted before inclusion. |
+| Graduation project repository screenshot | [graduation-project-repo.png](/aws-vn-recipe-workshop/images/evidence/graduation-project-repo.png) | Shows supporting evidence that the original food-recipe project workspace existed, while the real source repository remains private. |
+| CLEF CheckThat! working note | [working-note.pdf](/aws-vn-recipe-workshop/files/evidence/working-note.pdf) | Supports the worklog notes about retrieval, multilingual embeddings, re-ranking, and evaluation experience from the CLEF CheckThat! task. Author/contact identifiers were redacted before inclusion. |
 
 ## Notes for Reviewers
 

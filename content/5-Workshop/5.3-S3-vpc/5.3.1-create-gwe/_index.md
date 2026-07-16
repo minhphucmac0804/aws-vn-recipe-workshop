@@ -19,7 +19,7 @@ Create the Qdrant Cloud cluster and collection used by the final workshop path.
 
 What you should see:
 
-![Qdrant cluster creation](/images/5-Workshop/workshop-005/01-qdrant-cloud/01-create-cluster.png)
+![Qdrant cluster creation](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/01-create-cluster.png)
 
 ## Step 2 - Open the cluster dashboard
 
@@ -29,7 +29,7 @@ What you should see:
 
 What you should see:
 
-![Qdrant cluster dashboard](/images/5-Workshop/workshop-005/01-qdrant-cloud/02-cluster-dashboard.png)
+![Qdrant cluster dashboard](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/02-cluster-dashboard.png)
 
 ## Step 3 - Create the E5 collection
 
@@ -53,13 +53,13 @@ Why these settings:
 
 What you should see:
 
-![Qdrant collection creation](/images/5-Workshop/workshop-005/01-qdrant-cloud/03-collection-creation.png)
+![Qdrant collection creation](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/03-collection-creation.png)
 
 ## Step 4 - Confirm the empty collection
 
 Before loading data, the collection may be empty. This is expected.
 
-![Empty collection](/images/5-Workshop/workshop-005/01-qdrant-cloud/05-empty-collection.png)
+![Empty collection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/05-empty-collection.png)
 
 ## What you accomplished
 

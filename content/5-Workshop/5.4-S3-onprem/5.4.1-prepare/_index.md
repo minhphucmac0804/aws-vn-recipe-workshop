@@ -58,7 +58,7 @@ The original first ECR repository screenshot was removed during redaction, so th
 
 What you should see:
 
-![ECR repository tags](/images/5-Workshop/workshop-005/02-lambda-rag/02-add-repo-tags.png)
+![ECR repository tags](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/02-add-repo-tags.png)
 
 ## Step 4 - Use View push commands
 
@@ -79,8 +79,8 @@ Redaction rule: never publish the real account ID or repository URI.
 
 Evidence:
 
-![View push commands](/images/5-Workshop/workshop-005/02-lambda-rag/11-view-push-commands.png)
-![View push commands continued](/images/5-Workshop/workshop-005/02-lambda-rag/12-view-push-commands.png)
+![View push commands](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/11-view-push-commands.png)
+![View push commands continued](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/12-view-push-commands.png)
 
 ## Step 5 - Confirm active image
 
@@ -88,7 +88,7 @@ After pushing, confirm the image exists in ECR.
 
 What you should see:
 
-![Active image](/images/5-Workshop/workshop-005/02-lambda-rag/13-active-image.png)
+![Active image](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/13-active-image.png)
 
 ## What you accomplished
 

@@ -26,7 +26,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 05/03/2026 to 16/07/2026
 
-<img src="/images/avatar.jpg" alt="Profile picture" width="260">
+<img src="/aws-vn-recipe-workshop/images/avatar.jpg" alt="Profile picture" width="260">
 
 ### Report Content
 

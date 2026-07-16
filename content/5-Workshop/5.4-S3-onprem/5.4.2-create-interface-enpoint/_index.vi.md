@@ -24,9 +24,9 @@ vnc-rag-query-retriever-e5-image
 5. Chọn ECR image đã push.
 6. Tạo function.
 
-![Create Lambda function](/images/5-Workshop/workshop-005/02-lambda-rag/14-create-lambda-function.png)
-![Image selection](/images/5-Workshop/workshop-005/02-lambda-rag/15-image-selection.png)
-![Function creation success](/images/5-Workshop/workshop-005/02-lambda-rag/16-function-creation-success.png)
+![Create Lambda function](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/14-create-lambda-function.png)
+![Image selection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/15-image-selection.png)
+![Function creation success](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/16-function-creation-success.png)
 
 ## Bước 2 - Thêm environment variables
 
@@ -36,7 +36,7 @@ Dựa trên:
 project/lambda/lambda_e5_env.example
 ```
 
-![Environment variables](/images/5-Workshop/workshop-005/02-lambda-rag/17-add-env-variables.png)
+![Environment variables](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/17-add-env-variables.png)
 
 ## Bước 3 - Cấu hình runtime
 
@@ -48,13 +48,13 @@ Timeout: 60 seconds
 Ephemeral storage: 512 MB
 ```
 
-![Update general config](/images/5-Workshop/workshop-005/02-lambda-rag/18-update-general-config.png)
+![Update general config](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/18-update-general-config.png)
 
 ## Bước 4 - Kiểm tra IAM role
 
 Role cần quyền ghi CloudWatch logs, đọc fallback recipe JSON nếu dùng S3 fallback, và ghi DynamoDB query logs.
 
-![Edit role](/images/5-Workshop/workshop-005/02-lambda-rag/19-edit-role.png)
+![Edit role](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/19-edit-role.png)
 
 ## Bước 5 - Tạo Function URL
 
@@ -67,4 +67,4 @@ Allowed method: POST
 Allowed header: content-type
 ```
 
-![Function URL created](/images/5-Workshop/workshop-005/02-lambda-rag/20-url-created-cors-configured.png)
+![Function URL created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/20-url-created-cors-configured.png)

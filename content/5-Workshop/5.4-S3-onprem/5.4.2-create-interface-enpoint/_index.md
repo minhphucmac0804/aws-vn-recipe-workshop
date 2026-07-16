@@ -28,9 +28,9 @@ vnc-rag-query-retriever-e5-image
 
 What you should see:
 
-![Create Lambda function](/images/5-Workshop/workshop-005/02-lambda-rag/14-create-lambda-function.png)
-![Image selection](/images/5-Workshop/workshop-005/02-lambda-rag/15-image-selection.png)
-![Function creation success](/images/5-Workshop/workshop-005/02-lambda-rag/16-function-creation-success.png)
+![Create Lambda function](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/14-create-lambda-function.png)
+![Image selection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/15-image-selection.png)
+![Function creation success](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/16-function-creation-success.png)
 
 ## Step 2 - Add environment variables
 
@@ -65,7 +65,7 @@ WORKSHOP_EMBEDDER_VECTOR_SIZE=768
 
 What you should see:
 
-![Environment variables](/images/5-Workshop/workshop-005/02-lambda-rag/17-add-env-variables.png)
+![Environment variables](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/17-add-env-variables.png)
 
 Redaction rule: screenshot values must be redacted before publishing.
 
@@ -87,7 +87,7 @@ Ephemeral storage: 512 MB
 
 What you should see:
 
-![Update general config](/images/5-Workshop/workshop-005/02-lambda-rag/18-update-general-config.png)
+![Update general config](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/18-update-general-config.png)
 
 ## Step 4 - Confirm IAM role permissions
 
@@ -101,7 +101,7 @@ The role should allow:
 
 What you should see:
 
-![Edit role](/images/5-Workshop/workshop-005/02-lambda-rag/19-edit-role.png)
+![Edit role](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/19-edit-role.png)
 
 ## Step 5 - Create or verify Function URL
 
@@ -122,7 +122,7 @@ Allowed header: content-type
 
 What you should see:
 
-![Function URL created](/images/5-Workshop/workshop-005/02-lambda-rag/20-url-created-cors-configured.png)
+![Function URL created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/20-url-created-cors-configured.png)
 
 Do not publish the real Function URL.
 

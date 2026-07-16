@@ -15,7 +15,7 @@ Dự án này đề xuất một trợ lý món ăn Việt Nam chạy trên AWS,
 Dự án được giới hạn có chủ đích như một workshop deliverable tập trung. Nó trình bày một kiến trúc end-to-end đủ rõ để reviewer theo dõi, đủ thực tế để kiểm tra bằng screenshots, logs, và evaluation results, đồng thời vẫn phù hợp với phạm vi của một dự án thực tập. Trong tài khoản AWS được dùng để phát triển, chi phí đã kiểm tra là `$0`, kể cả khi tính phần credits trong giao diện billing.
 
 ### 2. Bằng chứng bối cảnh hỗ trợ
-Use case cuối cùng của workshop dựa trên đồ án tốt nghiệp về food-recipe. Vì repository gốc của project vẫn private, workshop public đưa vào supporting evidence thay cho toàn bộ source repository private: [thesis reference đã redact](/files/evidence/thesis-reference.pdf), [private repository screenshot](/images/evidence/graduation-project-repo.png), và trang [Bằng chứng hỗ trợ](../8-SupportingEvidence/).
+Use case cuối cùng của workshop dựa trên đồ án tốt nghiệp về food-recipe. Vì repository gốc của project vẫn private, workshop public đưa vào supporting evidence thay cho toàn bộ source repository private: [thesis reference đã redact](/aws-vn-recipe-workshop/files/evidence/thesis-reference.pdf), [private repository screenshot](/aws-vn-recipe-workshop/images/evidence/graduation-project-repo.png), và trang [Bằng chứng hỗ trợ](../8-SupportingEvidence/).
 
 Các file này chỉ đóng vai trò background evidence. Chúng giải thích domain và learning path của project, còn phần implementation của workshop vẫn tập trung vào final Lambda-based RAG architecture.
 
@@ -103,7 +103,7 @@ Các mục tiêu của dự án là:
 ### 8. Kiến trúc giải pháp
 Kiến trúc reviewer-facing cuối cùng được thể hiện bên dưới.
 
-![AWS Vietnamese Recipe Assistant Architecture](/images/5-Workshop/aws-workshop-architecture-final.png)
+![AWS Vietnamese Recipe Assistant Architecture](/aws-vn-recipe-workshop/images/5-Workshop/aws-workshop-architecture-final.png)
 
 ### Dịch vụ AWS sử dụng
 - `AWS Lambda`: compute chính và điều phối backend

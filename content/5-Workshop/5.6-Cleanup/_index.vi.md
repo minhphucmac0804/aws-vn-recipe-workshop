@@ -45,14 +45,14 @@ Các ảnh dưới đây là bằng chứng tùy chọn cho reviewer. Chúng cho
 
 | Bằng chứng | Ảnh chụp |
 |---|---|
-| EventBridge Scheduler đã xóa | ![EventBridge Scheduler đã xóa](/images/5-Workshop/cleanup/01-scheduler-deleted.png) |
-| Lambda function đã xóa | ![Lambda function đã xóa](/images/5-Workshop/cleanup/02-lambda-deleted.png) |
-| CloudWatch alarm đã xóa | ![CloudWatch alarm đã xóa](/images/5-Workshop/cleanup/03-alarm-deleted.png) |
-| CloudWatch log group đã xóa | ![CloudWatch log group đã xóa](/images/5-Workshop/cleanup/04-cloudwatch-log-group-deleted.png) |
-| DynamoDB table đã gửi yêu cầu xóa | ![DynamoDB table đã gửi yêu cầu xóa](/images/5-Workshop/cleanup/05-dynamodb-deleted.png) |
-| DynamoDB không còn table | ![DynamoDB không còn table](/images/5-Workshop/cleanup/06-dynamodb-no-table-left.png) |
-| ECR repository đã xóa | ![ECR repository đã xóa](/images/5-Workshop/cleanup/07-ecr-deleted.png) |
-| IAM user đã xóa | ![IAM user đã xóa](/images/5-Workshop/cleanup/08-iam-user-deleted.png) |
+| EventBridge Scheduler đã xóa | ![EventBridge Scheduler đã xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/01-scheduler-deleted.png) |
+| Lambda function đã xóa | ![Lambda function đã xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/02-lambda-deleted.png) |
+| CloudWatch alarm đã xóa | ![CloudWatch alarm đã xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/03-alarm-deleted.png) |
+| CloudWatch log group đã xóa | ![CloudWatch log group đã xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/04-cloudwatch-log-group-deleted.png) |
+| DynamoDB table đã gửi yêu cầu xóa | ![DynamoDB table đã gửi yêu cầu xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/05-dynamodb-deleted.png) |
+| DynamoDB không còn table | ![DynamoDB không còn table](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/06-dynamodb-no-table-left.png) |
+| ECR repository đã xóa | ![ECR repository đã xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/07-ecr-deleted.png) |
+| IAM user đã xóa | ![IAM user đã xóa](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/08-iam-user-deleted.png) |
 
 ## Ghi chú cleanup screenshots
 

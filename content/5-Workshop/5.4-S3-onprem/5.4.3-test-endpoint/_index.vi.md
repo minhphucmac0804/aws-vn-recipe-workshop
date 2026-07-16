@@ -23,16 +23,16 @@ Dùng event dạng HTTP nếu handler cần Function URL format:
 }
 ```
 
-![Lambda test success](/images/5-Workshop/workshop-005/02-lambda-rag/21-test-success.png)
-![Lambda response evidence](/images/5-Workshop/workshop-005/02-lambda-rag/22-test-success.png)
+![Lambda test success](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/21-test-success.png)
+![Lambda response evidence](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/22-test-success.png)
 
 ## Bước 2 - Kiểm tra DynamoDB query log
 
-![DynamoDB item test success](/images/5-Workshop/workshop-005/02-lambda-rag/23-item-test-success.png)
+![DynamoDB item test success](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/23-item-test-success.png)
 
 ## Bước 3 - Kiểm tra CloudWatch logs
 
-![CloudWatch structured log](/images/5-Workshop/workshop-005/02-lambda-rag/24-cloudwatch.png)
+![CloudWatch structured log](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/24-cloudwatch.png)
 
 ## Bước 4 - Kiểm thử Chainlit
 
@@ -42,5 +42,5 @@ Hỏi một câu như:
 Gợi ý món ăn với thịt gà và rau củ.
 ```
 
-![Grounded answer example 1](/images/5-Workshop/workshop-005/02-lambda-rag/25-answer-false.png)
-![Grounded answer example 2](/images/5-Workshop/workshop-005/02-lambda-rag/26-answer-true.png)
+![Grounded answer example 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/25-answer-false.png)
+![Grounded answer example 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/26-answer-true.png)

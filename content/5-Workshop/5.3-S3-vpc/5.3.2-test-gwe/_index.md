@@ -45,11 +45,11 @@ Open the collection in Qdrant Cloud and confirm that points exist.
 
 What you should see:
 
-![Loaded collection](/images/5-Workshop/workshop-005/01-qdrant-cloud/06-loaded-collection.png)
+![Loaded collection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/06-loaded-collection.png)
 
 Then inspect collection items:
 
-![Collection items](/images/5-Workshop/workshop-005/01-qdrant-cloud/07-collection-items.png)
+![Collection items](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/07-collection-items.png)
 
 ## Step 4 - Run a direct retrieval smoke test
 
@@ -67,9 +67,9 @@ Expected result:
 
 Evidence examples:
 
-![Qdrant query result 1](/images/5-Workshop/workshop-005/01-qdrant-cloud/08-result-01.png)
-![Qdrant query result 2](/images/5-Workshop/workshop-005/01-qdrant-cloud/09-result-02.png)
-![Qdrant query result 3](/images/5-Workshop/workshop-005/01-qdrant-cloud/10-result-11.png)
+![Qdrant query result 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/08-result-01.png)
+![Qdrant query result 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/09-result-02.png)
+![Qdrant query result 3](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/10-result-11.png)
 
 ## What you accomplished
 

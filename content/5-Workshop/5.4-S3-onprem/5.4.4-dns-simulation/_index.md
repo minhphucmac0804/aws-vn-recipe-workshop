@@ -31,11 +31,11 @@ For short validation, `rate(1 minute)` is acceptable briefly. After testing, slo
 
 What you should see:
 
-![Create schedule step 1](/images/5-Workshop/workshop-005/02-lambda-rag/27-create-schedule-step-1.png)
-![Create schedule step 2](/images/5-Workshop/workshop-005/02-lambda-rag/28-create-schedule-step-2.png)
-![Create schedule step 3](/images/5-Workshop/workshop-005/02-lambda-rag/29-create-schedule-step-3.png)
-![Create schedule step 4](/images/5-Workshop/workshop-005/02-lambda-rag/30-create-schedule-step-4.png)
-![Schedule created](/images/5-Workshop/workshop-005/02-lambda-rag/32-schedule-created.png)
+![Create schedule step 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/27-create-schedule-step-1.png)
+![Create schedule step 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/28-create-schedule-step-2.png)
+![Create schedule step 3](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/29-create-schedule-step-3.png)
+![Create schedule step 4](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/30-create-schedule-step-4.png)
+![Schedule created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/32-schedule-created.png)
 
 ## Step 2 - Create SNS topic and email subscription
 
@@ -55,10 +55,10 @@ Then create an email subscription and confirm the email.
 
 What you should see:
 
-![Create SNS topic](/images/5-Workshop/workshop-005/02-lambda-rag/31-create-sns-topic.png)
-![Topic created](/images/5-Workshop/workshop-005/02-lambda-rag/33-topic-created.png)
-![Create subscription](/images/5-Workshop/workshop-005/02-lambda-rag/34-create-subscription.png)
-![Subscription created](/images/5-Workshop/workshop-005/02-lambda-rag/35-subscription-created.png)
+![Create SNS topic](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/31-create-sns-topic.png)
+![Topic created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/33-topic-created.png)
+![Create subscription](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/34-create-subscription.png)
+![Subscription created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/35-subscription-created.png)
 
 ## Step 3 - Create fallback metric filter
 
@@ -79,11 +79,11 @@ Metric value: 1
 
 What you should see:
 
-![Metric filter](/images/5-Workshop/workshop-005/02-lambda-rag/45-metric-filter.png)
-![Create filter step 1](/images/5-Workshop/workshop-005/02-lambda-rag/46-create-filter-step-1.png)
-![Create filter step 2](/images/5-Workshop/workshop-005/02-lambda-rag/47-create-filter-step-2.png)
-![Create filter step 3](/images/5-Workshop/workshop-005/02-lambda-rag/48-create-filter-step-3.png)
-![Filter created](/images/5-Workshop/workshop-005/02-lambda-rag/49-filter-created.png)
+![Metric filter](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/45-metric-filter.png)
+![Create filter step 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/46-create-filter-step-1.png)
+![Create filter step 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/47-create-filter-step-2.png)
+![Create filter step 3](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/48-create-filter-step-3.png)
+![Filter created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/49-filter-created.png)
 
 ## Step 4 - Create fallback alarm
 
@@ -106,14 +106,14 @@ Action: send to workshop-e5-lambda-alerts SNS topic
 
 What you should see:
 
-![Create alarm](/images/5-Workshop/workshop-005/02-lambda-rag/36-create-alarms.png)
-![Create alarm step 1](/images/5-Workshop/workshop-005/02-lambda-rag/37-create-alarm-step-1.png)
-![Select metric](/images/5-Workshop/workshop-005/02-lambda-rag/38-select-metric.png)
-![Create alarm review](/images/5-Workshop/workshop-005/02-lambda-rag/39-create-alarm-step-1-review.png)
-![Create alarm step 2](/images/5-Workshop/workshop-005/02-lambda-rag/40-create-alarm-step-2.png)
-![Create alarm step 3](/images/5-Workshop/workshop-005/02-lambda-rag/41-create-alarm-step-3.png)
-![Create alarm step 4](/images/5-Workshop/workshop-005/02-lambda-rag/42-create-alarm-step-4.png)
-![Alarm created](/images/5-Workshop/workshop-005/02-lambda-rag/43-alarm-created.png)
+![Create alarm](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/36-create-alarms.png)
+![Create alarm step 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/37-create-alarm-step-1.png)
+![Select metric](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/38-select-metric.png)
+![Create alarm review](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/39-create-alarm-step-1-review.png)
+![Create alarm step 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/40-create-alarm-step-2.png)
+![Create alarm step 3](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/41-create-alarm-step-3.png)
+![Create alarm step 4](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/42-create-alarm-step-4.png)
+![Alarm created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/43-alarm-created.png)
 
 ## Step 5 - Trigger controlled fallback
 
@@ -137,8 +137,8 @@ Expected result:
 
 Evidence:
 
-![Fallback triggered](/images/5-Workshop/workshop-005/02-lambda-rag/44-scheduler-run-fallback-triggered.png)
-![SNS email sent](/images/5-Workshop/workshop-005/02-lambda-rag/55-mail-sent.jpg)
+![Fallback triggered](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/44-scheduler-run-fallback-triggered.png)
+![SNS email sent](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/55-mail-sent.jpg)
 
 Immediately restore:
 

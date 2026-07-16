@@ -47,14 +47,14 @@ The following screenshots are optional reviewer evidence. They show the main wor
 
 | Evidence | Screenshot |
 |---|---|
-| EventBridge Scheduler schedule deleted | ![EventBridge Scheduler deleted](/images/5-Workshop/cleanup/01-scheduler-deleted.png) |
-| Lambda function deleted | ![Lambda function deleted](/images/5-Workshop/cleanup/02-lambda-deleted.png) |
-| CloudWatch alarm deleted | ![CloudWatch alarm deleted](/images/5-Workshop/cleanup/03-alarm-deleted.png) |
-| CloudWatch log group deleted | ![CloudWatch log group deleted](/images/5-Workshop/cleanup/04-cloudwatch-log-group-deleted.png) |
-| DynamoDB table deletion requested | ![DynamoDB table deletion requested](/images/5-Workshop/cleanup/05-dynamodb-deleted.png) |
-| DynamoDB table list empty | ![DynamoDB no tables left](/images/5-Workshop/cleanup/06-dynamodb-no-table-left.png) |
-| ECR repository deleted | ![ECR repository deleted](/images/5-Workshop/cleanup/07-ecr-deleted.png) |
-| IAM user deleted | ![IAM user deleted](/images/5-Workshop/cleanup/08-iam-user-deleted.png) |
+| EventBridge Scheduler schedule deleted | ![EventBridge Scheduler deleted](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/01-scheduler-deleted.png) |
+| Lambda function deleted | ![Lambda function deleted](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/02-lambda-deleted.png) |
+| CloudWatch alarm deleted | ![CloudWatch alarm deleted](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/03-alarm-deleted.png) |
+| CloudWatch log group deleted | ![CloudWatch log group deleted](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/04-cloudwatch-log-group-deleted.png) |
+| DynamoDB table deletion requested | ![DynamoDB table deletion requested](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/05-dynamodb-deleted.png) |
+| DynamoDB table list empty | ![DynamoDB no tables left](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/06-dynamodb-no-table-left.png) |
+| ECR repository deleted | ![ECR repository deleted](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/07-ecr-deleted.png) |
+| IAM user deleted | ![IAM user deleted](/aws-vn-recipe-workshop/images/5-Workshop/cleanup/08-iam-user-deleted.png) |
 
 ## Cleanup screenshot note
 

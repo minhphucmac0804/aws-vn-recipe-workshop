@@ -12,7 +12,7 @@ In this workshop, you deploy and verify a small Vietnamese recipe assistant that
 
 ## Architecture
 
-![Final architecture](/images/5-Workshop/aws-workshop-architecture-final.png)
+![Final architecture](/aws-vn-recipe-workshop/images/5-Workshop/aws-workshop-architecture-final.png)
 
 Main request path:
 
@@ -55,7 +55,7 @@ DynamoDB and CloudWatch prove what happened.
 ## Demo video
 
 <video controls preload="metadata" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
-  <source src="/videos/demo.mp4" type="video/mp4">
+  <source src="/aws-vn-recipe-workshop/videos/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

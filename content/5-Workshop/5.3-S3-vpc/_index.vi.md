@@ -39,4 +39,4 @@ Collection lỗi chỉ dùng cho fallback alarm test:
 workshop_vn_recipes_e5_base_cloud_broken
 ```
 
-![Loaded collection](/images/5-Workshop/workshop-005/01-qdrant-cloud/06-loaded-collection.png)
+![Loaded collection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/06-loaded-collection.png)

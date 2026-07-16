@@ -25,18 +25,18 @@ Lambda: vnc-rag-query-retriever-e5-image
 Payload: {"query":"Gỏi"}
 ```
 
-![Create schedule step 1](/images/5-Workshop/workshop-005/02-lambda-rag/27-create-schedule-step-1.png)
-![Create schedule step 2](/images/5-Workshop/workshop-005/02-lambda-rag/28-create-schedule-step-2.png)
-![Create schedule step 3](/images/5-Workshop/workshop-005/02-lambda-rag/29-create-schedule-step-3.png)
-![Create schedule step 4](/images/5-Workshop/workshop-005/02-lambda-rag/30-create-schedule-step-4.png)
-![Schedule created](/images/5-Workshop/workshop-005/02-lambda-rag/32-schedule-created.png)
+![Create schedule step 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/27-create-schedule-step-1.png)
+![Create schedule step 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/28-create-schedule-step-2.png)
+![Create schedule step 3](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/29-create-schedule-step-3.png)
+![Create schedule step 4](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/30-create-schedule-step-4.png)
+![Schedule created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/32-schedule-created.png)
 
 ## Bước 2 - Tạo SNS topic và email subscription
 
-![Create SNS topic](/images/5-Workshop/workshop-005/02-lambda-rag/31-create-sns-topic.png)
-![Topic created](/images/5-Workshop/workshop-005/02-lambda-rag/33-topic-created.png)
-![Create subscription](/images/5-Workshop/workshop-005/02-lambda-rag/34-create-subscription.png)
-![Subscription created](/images/5-Workshop/workshop-005/02-lambda-rag/35-subscription-created.png)
+![Create SNS topic](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/31-create-sns-topic.png)
+![Topic created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/33-topic-created.png)
+![Create subscription](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/34-create-subscription.png)
+![Subscription created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/35-subscription-created.png)
 
 ## Bước 3 - Tạo fallback metric filter
 
@@ -47,14 +47,14 @@ Metric name: FallbackDetected
 Metric value: 1
 ```
 
-![Metric filter](/images/5-Workshop/workshop-005/02-lambda-rag/45-metric-filter.png)
-![Filter created](/images/5-Workshop/workshop-005/02-lambda-rag/49-filter-created.png)
+![Metric filter](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/45-metric-filter.png)
+![Filter created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/49-filter-created.png)
 
 ## Bước 4 - Tạo fallback alarm
 
-![Create alarm](/images/5-Workshop/workshop-005/02-lambda-rag/36-create-alarms.png)
-![Select metric](/images/5-Workshop/workshop-005/02-lambda-rag/38-select-metric.png)
-![Alarm created](/images/5-Workshop/workshop-005/02-lambda-rag/43-alarm-created.png)
+![Create alarm](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/36-create-alarms.png)
+![Select metric](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/38-select-metric.png)
+![Alarm created](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/43-alarm-created.png)
 
 ## Bước 5 - Trigger controlled fallback
 
@@ -70,5 +70,5 @@ Sau khi test xong, đổi lại:
 WORKSHOP_QDRANT_COLLECTION=workshop_vn_recipes_e5_base_cloud
 ```
 
-![Fallback triggered](/images/5-Workshop/workshop-005/02-lambda-rag/44-scheduler-run-fallback-triggered.png)
-![SNS email sent](/images/5-Workshop/workshop-005/02-lambda-rag/55-mail-sent.jpg)
+![Fallback triggered](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/44-scheduler-run-fallback-triggered.png)
+![SNS email sent](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/55-mail-sent.jpg)

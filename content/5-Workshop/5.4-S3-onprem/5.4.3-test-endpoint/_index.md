@@ -35,8 +35,8 @@ Run the test.
 
 What you should see:
 
-![Lambda test success](/images/5-Workshop/workshop-005/02-lambda-rag/21-test-success.png)
-![Lambda response evidence](/images/5-Workshop/workshop-005/02-lambda-rag/22-test-success.png)
+![Lambda test success](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/21-test-success.png)
+![Lambda response evidence](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/22-test-success.png)
 
 Expected result:
 
@@ -57,7 +57,7 @@ Look for a recent item from your test query.
 
 What you should see:
 
-![DynamoDB item test success](/images/5-Workshop/workshop-005/02-lambda-rag/23-item-test-success.png)
+![DynamoDB item test success](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/23-item-test-success.png)
 
 Useful fields include:
 
@@ -78,7 +78,7 @@ CloudWatch -> Logs -> Log groups -> /aws/lambda/vnc-rag-query-retriever-e5-image
 
 What you should see:
 
-![CloudWatch structured log](/images/5-Workshop/workshop-005/02-lambda-rag/24-cloudwatch.png)
+![CloudWatch structured log](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/24-cloudwatch.png)
 
 Useful log evidence:
 
@@ -105,8 +105,8 @@ Expected result:
 
 Evidence examples:
 
-![Grounded answer example 1](/images/5-Workshop/workshop-005/02-lambda-rag/25-answer-false.png)
-![Grounded answer example 2](/images/5-Workshop/workshop-005/02-lambda-rag/26-answer-true.png)
+![Grounded answer example 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/25-answer-false.png)
+![Grounded answer example 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/26-answer-true.png)
 
 ## What you accomplished
 

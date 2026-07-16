@@ -35,13 +35,13 @@ Repository gợi ý:
 aws-workshop/vnc-rag-query-retriever-e5
 ```
 
-![ECR repository tags](/images/5-Workshop/workshop-005/02-lambda-rag/02-add-repo-tags.png)
+![ECR repository tags](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/02-add-repo-tags.png)
 
 ## Bước 4 - Dùng View push commands
 
-![View push commands](/images/5-Workshop/workshop-005/02-lambda-rag/11-view-push-commands.png)
-![View push commands continued](/images/5-Workshop/workshop-005/02-lambda-rag/12-view-push-commands.png)
+![View push commands](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/11-view-push-commands.png)
+![View push commands continued](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/12-view-push-commands.png)
 
 ## Bước 5 - Kiểm tra active image
 
-![Active image](/images/5-Workshop/workshop-005/02-lambda-rag/13-active-image.png)
+![Active image](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/02-lambda-rag/13-active-image.png)

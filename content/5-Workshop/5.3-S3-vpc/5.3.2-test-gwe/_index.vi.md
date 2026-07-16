@@ -34,9 +34,9 @@ python3 -m project.extensions.rag.local_qdrant.loader
 
 ## Bước 3 - Kiểm tra collection
 
-![Loaded collection](/images/5-Workshop/workshop-005/01-qdrant-cloud/06-loaded-collection.png)
+![Loaded collection](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/06-loaded-collection.png)
 
-![Collection items](/images/5-Workshop/workshop-005/01-qdrant-cloud/07-collection-items.png)
+![Collection items](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/07-collection-items.png)
 
 ## Bước 4 - Test retrieval trực tiếp
 
@@ -48,5 +48,5 @@ gỏi mít thịt ba chỉ
 
 Kết quả mong đợi: có ít nhất một recipe liên quan trong kết quả.
 
-![Qdrant query result 1](/images/5-Workshop/workshop-005/01-qdrant-cloud/08-result-01.png)
-![Qdrant query result 2](/images/5-Workshop/workshop-005/01-qdrant-cloud/09-result-02.png)
+![Qdrant query result 1](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/08-result-01.png)
+![Qdrant query result 2](/aws-vn-recipe-workshop/images/5-Workshop/workshop-005/01-qdrant-cloud/09-result-02.png)

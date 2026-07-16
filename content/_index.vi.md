@@ -26,7 +26,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 05/03/2026 đến ngày 16/07/2026
 
-<img src="/images/avatar.jpg" alt="Ảnh đại diện" width="260">
+<img src="/aws-vn-recipe-workshop/images/avatar.jpg" alt="Ảnh đại diện" width="260">
 
 ### Nội dung báo cáo
 

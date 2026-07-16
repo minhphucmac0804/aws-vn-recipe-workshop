@@ -15,7 +15,7 @@ This project proposes a practical AWS-based Vietnamese recipe assistant that dem
 The project is intentionally scoped as a focused workshop deliverable. It presents one end-to-end architecture that is easy to understand, practical to validate with screenshots, logs, and evaluation results, and realistic to complete within the constraints of an internship project. In my AWS account, the checked project cost was `$0`, even when credits were included in the account view.
 
 ### 2. Supporting Background Evidence
-The final workshop use case is based on a graduation food-recipe project. Because the original project repository is private, the public workshop includes supporting evidence instead of the full private source repository: a [redacted thesis reference](/files/evidence/thesis-reference.pdf), a [private repository screenshot](/images/evidence/graduation-project-repo.png), and a short [Supporting Evidence](../8-SupportingEvidence/) page.
+The final workshop use case is based on a graduation food-recipe project. Because the original project repository is private, the public workshop includes supporting evidence instead of the full private source repository: a [redacted thesis reference](/aws-vn-recipe-workshop/files/evidence/thesis-reference.pdf), a [private repository screenshot](/aws-vn-recipe-workshop/images/evidence/graduation-project-repo.png), and a short [Supporting Evidence](../8-SupportingEvidence/) page.
 
 These files are background evidence only. They explain the project domain and learning path, while the workshop implementation remains focused on the final Lambda-based RAG architecture.
 
@@ -103,7 +103,7 @@ The project objectives are:
 ### 8. Solution Architecture
 The final reviewer-facing architecture is shown below.
 
-![AWS Vietnamese Recipe Assistant Architecture](/images/5-Workshop/aws-workshop-architecture-final.png)
+![AWS Vietnamese Recipe Assistant Architecture](/aws-vn-recipe-workshop/images/5-Workshop/aws-workshop-architecture-final.png)
 
 ### AWS Services Used
 - `AWS Lambda`: main backend compute and orchestration

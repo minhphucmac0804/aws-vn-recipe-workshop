@@ -12,7 +12,7 @@ Trong workshop này, bạn triển khai và kiểm tra một Vietnamese recipe a
 
 ## Kiến trúc
 
-![Final architecture](/images/5-Workshop/aws-workshop-architecture-final.png)
+![Final architecture](/aws-vn-recipe-workshop/images/5-Workshop/aws-workshop-architecture-final.png)
 
 Luồng request chính:
 
@@ -43,7 +43,7 @@ User hỏi món ăn
 ## Demo video
 
 <video controls preload="metadata" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
-  <source src="/videos/demo.mp4" type="video/mp4">
+  <source src="/aws-vn-recipe-workshop/videos/demo.mp4" type="video/mp4">
   Trình duyệt của bạn không hỗ trợ video tag.
 </video>
 
