@@ -1,0 +1,26 @@
+FROM public.ecr.aws/lambda/python:3.12
+
+COPY src/lambda-e5-rag/requirements-lambda-e5.txt /tmp/requirements-lambda-e5.txt
+
+RUN python -m pip install --no-cache-dir \
+    -r /tmp/requirements-lambda-e5.txt \
+    --target "${LAMBDA_TASK_ROOT}"
+
+COPY src/lambda-e5-rag/handler.py ${LAMBDA_TASK_ROOT}/handler.py
+
+RUN mkdir -p ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx
+
+COPY src/models/multilingual-e5-base/onnx/model_qint8_avx512_vnni.onnx \
+    ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx/model_qint8_avx512_vnni.onnx
+COPY src/models/multilingual-e5-base/onnx/config.json \
+    ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx/config.json
+COPY src/models/multilingual-e5-base/onnx/tokenizer.json \
+    ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx/tokenizer.json
+COPY src/models/multilingual-e5-base/onnx/tokenizer_config.json \
+    ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx/tokenizer_config.json
+COPY src/models/multilingual-e5-base/onnx/special_tokens_map.json \
+    ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx/special_tokens_map.json
+COPY src/models/multilingual-e5-base/onnx/sentencepiece.bpe.model \
+    ${LAMBDA_TASK_ROOT}/models/multilingual-e5-base/onnx/sentencepiece.bpe.model
+
+CMD ["handler.lambda_handler"]

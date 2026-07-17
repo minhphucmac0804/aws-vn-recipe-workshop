@@ -33,6 +33,30 @@ docker --version
 
 Nếu `docker` không chạy trong WSL, mở Docker Desktop trên Windows và bật WSL integration cho distro đang dùng.
 
+## Gói source code
+
+Public repository có một gói `src/` nhỏ để người đọc có thể rebuild final workshop path:
+
+```text
+src/
+├── chainlit-ui/
+│   ├── chainlit_app.py
+│   └── README.md
+├── lambda-e5-rag/
+│   ├── handler.py
+│   ├── Dockerfile.e5_qint8
+│   ├── requirements-lambda-e5.txt
+│   ├── lambda_e5_env.example
+│   ├── CONTAINER_BUILD.md
+│   └── README.md
+└── data/
+    └── sample_recipes.json
+```
+
+Gói `src/` chỉ chứa final Lambda RAG path và local Chainlit UI tối thiểu. Các nhánh local RAG, baseline, và experimental trước đó không được đưa vào như runnable source trong public package vì chúng là bối cảnh lịch sử, không phải main workshop path.
+
+File E5 qint8 ONNX model không được commit vì dung lượng lớn. Làm theo `src/lambda-e5-rag/CONTAINER_BUILD.md` trước khi build Lambda container image.
+
 ## Quyền AWS cần có
 
 Bạn cần quyền tạo hoặc kiểm tra Lambda, ECR, DynamoDB, CloudWatch, EventBridge Scheduler, SNS, IAM role/policy, và S3 nếu fallback recipe JSON nằm trong S3.

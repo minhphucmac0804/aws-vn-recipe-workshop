@@ -43,6 +43,30 @@ What you should see:
 
 If `docker` is not found in WSL, open Docker Desktop on Windows and enable WSL integration for the distro you are using.
 
+## Source code package
+
+The public repository includes a minimal `src/` package for rebuilding the final workshop path:
+
+```text
+src/
+├── chainlit-ui/
+│   ├── chainlit_app.py
+│   └── README.md
+├── lambda-e5-rag/
+│   ├── handler.py
+│   ├── Dockerfile.e5_qint8
+│   ├── requirements-lambda-e5.txt
+│   ├── lambda_e5_env.example
+│   ├── CONTAINER_BUILD.md
+│   └── README.md
+└── data/
+    └── sample_recipes.json
+```
+
+The `src/` package contains only the final Lambda RAG path and the minimal local Chainlit UI. Earlier local RAG, baseline, and experimental branches are not included as runnable source in this public package because they are background history, not the main workshop path.
+
+The E5 qint8 ONNX model file is not committed because it is large. Follow `src/lambda-e5-rag/CONTAINER_BUILD.md` before building the Lambda container image.
+
 ## AWS permissions needed
 
 You need permission to create or inspect:
